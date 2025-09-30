@@ -21,5 +21,7 @@
     <PackageReference Include="Microsoft.Extensions.Options" Version="9.0.9" />
     <PackageReference Include="Microsoft.Extensions.Primitives" Version="9.0.9" />
   </ItemGroup>
-
+    <ItemGroup>
+	    <ProjectReference Include="..\Agenda Models\Agenda Models.csproj"></ProjectReference>
+    </ItemGroup>
 </Project>
