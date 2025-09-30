@@ -6,7 +6,7 @@ namespace Agenda_Console
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=localhost;Database=AgendaDB;User Id=sa;Password=Your_password123;");
+            optionsBuilder.UseSqlServer("Server=localhost;Database=AgendaDb;User Id=sa;Password=Your_password123;MultipleActiveResultSets=true");
         }
     }
 }
